@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+}
+
+.empty{
+    width: 150px;
+    height: 150px;
+    border: 5px solid orange;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.fill{
+    background-image: url("https://lh3.googleusercontent.com/proxy/xaezxKLBDKQHUI_nICYB_pF5B4QdbT5uUahk2rqDjJ7WcQ3B1u6x3VAot0HpiVR-SYFHaJWE4alyzP_lzSQwVBxN9JcmEAMNOGtasP4WttV-qz6CO2FZz8E5MArnnpWr8Xm4cGkLj0X8Sf0I");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.dragged{
+    background-color: white;
+}
+
+.dropped{
+    background-color: black;
+    border-style: dotted;
+}
